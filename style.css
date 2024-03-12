@@ -1,1 +1,63 @@
+/* import font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap')
+/* Base styling */
+*,
+html{
+    font-size: 62.5%;
+}
+body{
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/* navigattion */
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.nav_logo{
+    width: 150px;
+}
+.nav_logo img{
+    object-fit: contain;
+}
+.nav_ul{
+    display:flex ;
+    align-items: center;
+}
+.nav_ul > li{
+    margin-right:8rem;
+}
+.nav_link{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color:black;
+    transform: all 0.3s;
+}
+.nav_link:hover{
+    color: blue;
+}
+.nav_btn{
+    padding: 1.3rem 4rem;
+    background-color: blue;
+    color: azure;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: 700;
+
+}
+.nav_btn:hover{
+    background: red;
+}
