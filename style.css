@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap')
 /* Base styling */
 *,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
 html{
     font-size: 62.5%;
 }
@@ -16,16 +22,19 @@ a{
 ul{
     list-style-type: none;
 }
+img{
+    width: 90%;
+}
 /* navigattion */
 .nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .nav_logo{
-    width: 150px;
+    width: 50px;
 }
 .nav_logo img{
     object-fit: contain;
@@ -61,3 +70,14 @@ ul{
 .nav_btn:hover{
     background: red;
 }
+/* Hero section */
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    width: 80%;
+    height:70vh ;
+    margin: auto;
+}
+ 
