@@ -30,7 +30,7 @@ img{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 .nav_logo{
@@ -48,16 +48,16 @@ img{
 }
 .nav_link{
     font-weight: 600;
-    font-size: 1.4rem;
-    color:black;
+    font-size: 1.8rem;
+    color:blue;
     transform: all 0.3s;
 }
 .nav_link:hover{
-    color: blue;
+    color: black;
 }
 .nav_btn{
     padding: 1.3rem 4rem;
-    background-color: blue;
+    background-color: red;
     color: azure;
     border: none;
     border-radius: 100px;
@@ -68,7 +68,7 @@ img{
 
 }
 .nav_btn:hover{
-    background: red;
+    background: green;
 }
 /* Hero section */
 .hero{
@@ -76,8 +76,39 @@ img{
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     align-items: center;
-    width: 80%;
+    width: 90%;
     height:70vh ;
     margin: auto;
 }
- 
+.hero_image{
+    width: 600px;
+    height:max-content;
+    object-fit: contain;
+
+}
+.hero_text{
+    margin-left: 3rem;
+}
+.hero_text p{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color:darkcyan;
+    font-weight: bold;
+    margin-bottom: 2rem;
+
+}
+.hero_text h1{
+    font-size: 6rem;
+    color: darkgreen;
+    line-height: 6.5rem;
+    margin-bottom: 3rem;
+
+}
+.hero_btn button{
+    padding: 1.3rem,4rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all o.3sec ease-in-out;
+    border-radius: 5px;
+}
