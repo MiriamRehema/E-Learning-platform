@@ -112,3 +112,15 @@ img{
     transition: all o.3sec ease-in-out;
     border-radius: 5px;
 }
+.hero_button --1{
+    background: black;
+    border:none;
+    color: aliceblue;
+}
+.hero_button --2{
+    border: 3px solid lightseagreen;
+    margin-left: 2rem;
+    background: green;
+    color: white;
+    border-radius: 5px;
+}
