@@ -279,3 +279,105 @@ img{
     font-size: 2rem;
     color: orange;
 }
+.course_rating-count{
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 0.4rem;
+
+}
+.course_rating-count span{
+    color: grey;
+
+}
+.course_price{
+    font-size: 1.7rem;
+    color: black;
+    font-weight: bold;
+}
+.course_card:hover .course_image img{
+    transform: scale(1);
+}
+/* Contact section */
+.contact_section{
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+
+}
+.contact_heading{
+    text-align:center;
+    font-size: 6rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5rem;
+
+}
+.contact{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    
+}
+.contact_form{
+    padding: 2rem;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.75);
+    border-radius:10px ;
+
+}
+.contact_form >input,
+textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1.7rem;
+    background: none;
+    border-radius: 5px;
+    outline: none;
+    color:#333;
+    border: 3px solid white;
+
+}
+.contact_form_heading{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.contact_subheading{
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 5px;
+    color:#333;
+    text-align: center;
+}
+textarea{
+    height: 200px;
+}
+.contact_form button{
+    padding: 1.5rem 4rem;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:10px ;
+    font-weight: 700;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.contact_form button:hover{
+    background-color: black;
+}
+.contact_address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contact_address >div{
+    margin-top: ;
+}
