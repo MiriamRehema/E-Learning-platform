@@ -1,5 +1,6 @@
 /* import font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap')
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap') */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/.css/font-awesome.style.css')
 /* Base styling */
 *,
 ::before,
@@ -379,5 +380,32 @@ textarea{
 
 }
 .contact_address >div{
-    margin-top: ;
+    margin-top:4rem ;
+    display: flex;
+    align-items: center;
+}
+.contact_icon{
+    width: 80px;
+    height: 80px;
+    background:orange;
+    margin-right: 3rem;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_icon i{
+    font-size: 3rem;
+    color: white;
+}
+.contact_info h1{
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+
+}
+.contact_info p{
+    font-size: 1.4rem;
+    margin-bottom: 7px;
 }
