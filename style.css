@@ -31,7 +31,7 @@ img{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width: 75%;
+    width:80 %
     margin: auto;
 }
 .nav_logo{
@@ -40,12 +40,16 @@ img{
 .nav_logo img{
     object-fit: contain;
 }
+.logo_name{
+    font-weight: 700;
+    font-size: larger;
+}
 .nav_ul{
     display:flex ;
-    align-items: center;
+    align-items:center;
 }
 .nav_ul > li{
-    margin-right:8rem;
+    margin-right:10rem;
 }
 .nav_link{
     font-weight: 600;
@@ -57,7 +61,7 @@ img{
     color: black;
 }
 .nav_btn{
-    padding: 1.3rem 4rem;
+    padding: 1.4rem 3rem;
     background-color: red;
     color: azure;
     border: none;
@@ -70,6 +74,10 @@ img{
 }
 .nav_btn:hover{
     background: green;
+}
+.search-container{
+    padding: 1.4rem;
+
 }
 /* Hero section */
 .hero{
@@ -127,25 +135,26 @@ img{
 }
 /* About styling */
 .about_section{
-    padding-top: 5rem;
+    padding-top: 10rem;
 
 }
 .about{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
     gap: 3rem;
     align-items: center;
 }
-.about_image{
+/* .about_image{
     grid-column: 1/span 1;
     width: 550px;
     height: auto;
     object-fit: contain;
-}
+} */
 .about_info{
-    grid-column:2 /span 2;
+    grid-column:1 spa ;
+    align-items: center;
 }
 .about_subheading{
     font-size: 1.7rem ;
@@ -163,12 +172,13 @@ img{
 
 }
 .about_para{
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 3rem;
+    align-items: left;
 }
-.about_list_item{
+/* .about_list_item{
     display: flex;
     align-items: center;
     margin-bottom: 3rem;
@@ -199,11 +209,11 @@ img{
     color: black;
     font-weight: 400;
     width: 80%;
-}
+} */
 /* course section */
 .course_section{
-    padding-top: 18rem;
-    padding-bottom: 3rem;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
 
 }
 .course_heading{
@@ -301,7 +311,7 @@ img{
 }
 /* Contact section */
 .contact_section{
-    padding-top: 10rem;
+    padding-top: 9rem;
     padding-bottom: 3rem;
 
 }
@@ -318,7 +328,7 @@ img{
     width: 80%;
     margin: auto;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 3rem;
     
 }
 .contact_form{
@@ -409,3 +419,48 @@ textarea{
     font-size: 1.4rem;
     margin-bottom: 7px;
 }
+/* .table{
+    margin-top: 2rem;
+    text-align:center;
+    position: relative;
+    background-color:orange;
+    padding: 10px;
+    border-collapse: separate;
+
+} */
+.courses_paragraph{
+    float: right;
+
+}
+/* spacing table */
+.table{
+    background: white;
+    color:black;
+    border-radius: 7;
+    position: sticky;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+
+}
+/* nav ul li a{
+    display: block;
+    padding: 1px 0px;text-decoration: none;
+    color: aqua;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid tomato; */
+
+
+
+
+
